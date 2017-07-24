@@ -2,6 +2,10 @@
     background: #36393e;
 }
 
+.note textarea:focus {
+    background: transparent;
+}	
+
 #user-profile-modal .tab-bar-container, #user-profile-modal .header:after, #user-profile-modal .avatar-wrapper, #user-profile-modal .guilds .guild:hover {
     background: #2f3136;
 }
@@ -31,7 +35,7 @@
     color: #fff;	
 }
 
-#user-profile-modal .header:after, .note textarea:focus {
+#user-profile-modal .header:after {
     background-image: transparent;
 }
 
