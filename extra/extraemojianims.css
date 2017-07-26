@@ -1,0 +1,9 @@
+/** jakeoid's Emoji Animations **/
+@import "https://rawgit.com/jakeoid/discord-emoji-anim/master/stylesheet.css";
+
+/** Personal+Global extra emoji animations **/
+.emoji[alt*="PRIDELOVE"], .emoji[alt*="ssLove"], .emoji[alt*="ssLove"], .emoji[alt*="linkHeartpiece"], .emoji[alt*="googleblueheart"], .emoji[alt*="googleredheart"]
+{animation: heartbeat 1s infinite;}
+
+.emoji[alt*="angerlloyd"]
+{animation: vibrate 0.2s infinite;}
