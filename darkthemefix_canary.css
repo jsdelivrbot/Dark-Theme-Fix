@@ -48,7 +48,7 @@
 }
 **/
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .tab-bar .tab-bar-item.selected , #user-profile-modal .guilds .guild , /**.note textarea**/, #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name , .activity strong, .quick-message {
+#user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .tab-bar .tab-bar-item.selected , #user-profile-modal .guilds .guild , /**.note textarea,**/ #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name , .activity strong, .quick-message {
     color: hsla(0,0%,100%,.7);
 }
 
