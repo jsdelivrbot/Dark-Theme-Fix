@@ -10,16 +10,11 @@
     background: #2f3136;
 }
 
-/**
-.user-popout .body , .user-popout .footer {
+.userPopout-4pfA0d .body-3rkFrF , .userPopout-4pfA0d .footer-2J5zqP {
     background: #44484f;
+    border-top: 1px solid #3e434a;
+    border-bottom: 1px solid #3e434a;	
 }
-
-.user-popout .footer {
-	border-top: 1px solid #3e434a;
-	border-bottom: 1px solid #3e434a;
-}
-**/
 
 #user-profile-modal .guilds .section+.section {
 	border-top: 1px solid #44484f;
@@ -41,12 +36,12 @@
     background-image: transparent;
 }
 
-/**
+
 .quick-message {
     border: 1px solid #3e434a;
     background: hsla(218,5%,47%,.3);
 }
-**/
+
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag, #user-profile-modal .tab-bar .tab-bar-item.selected , #user-profile-modal .guilds .guild , /**.note textarea,**/ #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name , .activity strong, .quick-message {
     color: hsla(0,0%,100%,.7);
