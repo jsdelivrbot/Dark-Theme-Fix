@@ -134,7 +134,7 @@ background: transparent;
 color: #737f8d;
 }
 
-.search-popout .option strong, .search-popout .search-option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name {
+.search-popout .option strong, .search-popout .search-query .search-for strong, .search-popout .search-option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name {
     color: hsla(0,0%,100%,.7);
 }
 
