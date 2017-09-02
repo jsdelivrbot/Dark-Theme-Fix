@@ -109,32 +109,28 @@
 
 /* Search menu */
 .search-popout, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month  {
-background-color: #2f3136;
+    background-color: #2f3136;
 }
 
 .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
-background-color: #36393e;
-color: #737f8d;
+    background-color: #36393e;
+    color: #737f8d;
 }
 
 
 .search-popout .option:after, .search-popout .option.selected:after, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header {
-background: transparent;
+    background: transparent;
 }
 
 .search-popout .option.selected, .theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
     background-color: #36393e;
 }
 
-.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+.search-popout .search-query .search-for strong, .search-popout .option .non-text, .search-popout .option .answer, .search-popout .option.user .displayed-nick, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
+    color: #737f8d;
 }
 
-.search-popout .option .non-text, .search-popout .option .answer, .search-popout .option.user .displayed-nick, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
-color: #737f8d;
-}
-
-.search-popout .option strong, .search-popout .search-query .search-for strong, .search-popout .search-option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name {
+.search-popout .option strong, .search-popout .search-option .filter, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name {
     color: hsla(0,0%,100%,.7);
 }
 
