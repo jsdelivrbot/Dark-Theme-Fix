@@ -1,3 +1,5 @@
+@import "https://rawgit.com/Delphox/Dark-Theme-Fix/master/darkthemefix_canary.css";
+
 #user-profile-modal .scroller, #user-profile-modal .empty {
     background: #36393e;
 }
@@ -74,5 +76,3 @@
   background-color: rgba(225, 225, 225, 0.2) !important;
 }
 /* End of Scroller */
-
-@import "https://rawgit.com/Delphox/Dark-Theme-Fix/master/darkthemefix_canary.css";
