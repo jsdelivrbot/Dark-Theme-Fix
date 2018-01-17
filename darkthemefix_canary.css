@@ -1,5 +1,10 @@
 /* Emoji Drawer */
 
+.emojiPicker-3g68GS , .search-bar.search-bar-light , .category-3rCtoh, .search-bar.search-bar-light  {
+    background-color: #44484f;
+}
+
+/** Scrollbar **/
 .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
     background-color: #3e4046;
 }
@@ -9,13 +14,25 @@
     background-color: #2c3034;
 }
 
-.emojiPicker-3g68GS , .search-bar.search-bar-light , .category-3rCtoh, .search-bar.search-bar-light  {
-    background-color: #44484f;
+/** End of scrollbar **/
+
+/** Diversity fix **/
+.emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+    background-color: transparent;
 }
 
-.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {
+.diversitySelector-O3ea2c .popout-2lja3I {
+    border: 1px solid #52565d;
+	background: #36393f;
+}
+
+/** End of iversity fix **/
+
+.emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ { /** Highlighted emoji  **/
     background-color: #36393e;
 }
+
+/** Search form **/
 
 .search-bar.search-bar-light .search-bar-inner{
     background: hsla(218,5%,47%,.3);
@@ -28,6 +45,8 @@
 .search-bar.search-bar-light input::-webkit-input-placeholder {
     color: hsla(0,0%,100%,.4);
 }
+
+/** End of search form **/
 
 /* End of Emoji Drawer */
 
